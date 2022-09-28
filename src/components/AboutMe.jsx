@@ -27,7 +27,7 @@ const AboutMe = () => {
                 <Typography variant='h2'
                     sx={{ fontSize: { xs: '30px', sm: '40px', md: '50px', lg: '60px' } }}
                 >
-                    About Me test
+                    About Me
                 </Typography>
                 <Typography padding='60px' paddingTop='40px'>
                     {aboutMe[0]}
