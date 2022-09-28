@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
+    - export DEPLOYPATH=/home/jalenjco/public_html/
     - npm run build
-    - export DEPLOYPATH=/home/example/public_html/
     - /bin/cp build $DEPLOYPATH
