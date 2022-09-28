@@ -2,7 +2,7 @@ import React from 'react'
 import { Box, Typography } from '@mui/material'
 
 const AboutMe = () => {
-    const aboutMe = ['My name is Jalen Johnson and I am a React Developer. Ive been programming on and off for 3 years. I majored in Computer Science for 2 years at Pace University, and took countless programming courses on Udemy. I have a deep understanding on JavaScript, React, HTML and CSS. ']
+    const aboutMe = ['My name is Jalen Johnson and I am a React Developer. Ive been programming on and off for 3 years. I majored in Computer Science for 2 years at Pace University, and I have multiple certifications. I have a deep understanding on JavaScript, React, HTML and CSS. ']
 
     return (
         <Box display='flex'
