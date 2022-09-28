@@ -17,18 +17,18 @@ const ProjectDetails = () => {
             paragraphC: 'Technologies: React, React Redux, React Redux Toolkit, Mui/Material, React Router DOM, React Player, Axios.',
             picture: AnimeWorld,
             liveSite: 'https://anime-place.netlify.app/',
-            sourceCode: '',
+            sourceCode: 'https://github.com/Jevoni/anime-world',
             backgroundColor: 'lightblue',
             version: '(v1.2.2)',
             isComingSoon: false
         },
         {
-            title: 'Youtube Clone',
+            title: 'Youtube Lite',
             info: 'This is shallow copy of the YouTube website, which means that there is no backend integration. In non technical terms, its YouTube without the ability to create an account and things of that nature.',
             paragraphC: 'Technologies: React, React DOM, React Player, React Router DOM.',
             picture: YouTube,
             liveSite: 'https://youtubes-lite.netlify.app',
-            sourceCode: '',
+            sourceCode: 'https://github.com/Jevoni/youtube-lite',
             backgroundColor: 'lightblue',
             version: '(v2.0.0)',
             isComingSoon: false
@@ -39,7 +39,7 @@ const ProjectDetails = () => {
             paragraphC: 'Technologies: React, Axios, Google Maps React, React Dom, React Icons, Mui/Materials.',
             picture: Travel,
             liveSite: 'https://travel-advisor-jalen.netlify.app',
-            sourceCode: '',
+            sourceCode: 'https://github.com/Jevoni/travel-guide',
             backgroundColor: 'lightblue',
             version: '(v1.0.0)',
             isComingSoon: false
@@ -50,7 +50,7 @@ const ProjectDetails = () => {
             paragraphC: 'Technologies: React, React DOM, React Redux, React Router DOM, Redux Persist.',
             picture: FindCountry,
             liveSite: 'https://find-country-jalen.netlify.app',
-            sourceCode: '',
+            sourceCode: 'https://github.com/Jevoni/find-country',
             backgroundColor: 'lightblue',
             version: '(v1.0.0)',
             isComingSoon: false
@@ -61,7 +61,7 @@ const ProjectDetails = () => {
             paragraphC: 'Technologies: Ant Design, Axios, Chart.js, HTML React Player, Milify, Moment, React, React DOM, React Redux, React Router DOM',
             picture: Crypto,
             liveSite: 'https://crypto-verse-jalen.netlify.app',
-            sourceCode: '',
+            sourceCode: 'https://github.com/Jevoni/cryptoverse',
             backgroundColor: 'lightblue',
             version: '(v1.0.0)',
             isComingSoon: false
@@ -72,7 +72,7 @@ const ProjectDetails = () => {
             paragraphC: 'Technologies: React',
             picture: Portfolio,
             liveSite: 'https://jalenj.com',
-            sourceCode: '',
+            sourceCode: 'https://github.com/Jevoni/jalen-portfolio-website',
             backgroundColor: 'lightblue',
             version: '(v1.1.1)',
             isComingSoon: false
