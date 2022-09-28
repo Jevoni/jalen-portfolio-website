@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.js": "/static/js/main.b94c2569.js",
+    "static/media/AnimeWorld.png": "/static/media/AnimeWorld.41f0fa404a24739b462e.png",
+    "static/media/YouTube.png": "/static/media/YouTube.99a0b3fdb30b288cc9b1.png",
+    "static/media/TravelAdvisor.png": "/static/media/TravelAdvisor.de882850542cfd7db143.png",
+    "static/media/FindCountry.png": "/static/media/FindCountry.3adadeb1b1aac0e3ae75.png",
+    "static/media/Crypto.png": "/static/media/Crypto.dc5cfb12f77193822b75.png",
+    "static/media/Portfolio.png": "/static/media/Portfolio.282fa876c851148b5a02.png",
+    "index.html": "/index.html",
+    "main.b94c2569.js.map": "/static/js/main.b94c2569.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.b94c2569.js"
+  ]
+}
