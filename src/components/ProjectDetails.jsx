@@ -87,6 +87,17 @@ const ProjectDetails = () => {
             backgroundColor: 'lightblue',
             version: '(Coming Soon...)',
             isComingSoon: true
+        },
+        {
+            title: 'Free-to-Play Games DB',
+            info: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt tenetur mollitia facere doloremque tempore, rerum repudiandae nulla veritatis aspernatur officiis vitae commodi ducimus cupiditate consequuntur recusandae, sit earum! Et, nihil?",
+            paragraphC: '',
+            picture: 'filler',
+            liveSite: '',
+            sourceCode: '',
+            backgroundColor: 'lightblue',
+            version: '(Coming Soon...)',
+            isComingSoon: true
         }]
     return (
         <Box marginTop='30px' id='projects'>
