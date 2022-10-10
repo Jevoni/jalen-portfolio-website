@@ -1,8 +1,10 @@
 import React from 'react'
 import { Box, Typography } from '@mui/material'
 
+import AboutMePic from '../media/AboutMe.JPG'
+
 const AboutMe = () => {
-    const aboutMe = ['My name is Jalen Johnson and I am a React Developer. Ive been programming on and off for 3 years. I majored in Computer Science for 2 years at Pace University, and I have multiple certifications. I have a deep understanding on JavaScript, React, HTML and CSS. ']
+    const aboutMe = ['Programming has never felt like just a job or hobby. Its one of the first things I do in the morning and one of the last things I do at night. Programming allows me to express my creativity through code. ']
 
     return (
         <Box display='flex'
@@ -29,9 +31,24 @@ const AboutMe = () => {
                 >
                     About Me
                 </Typography>
-                <Typography padding='60px' paddingTop='40px'>
-                    {aboutMe[0]}
-                </Typography>
+                <Box sx={{
+                    display: 'flex',
+                    justifyContent: 'space-evenly'
+                }}>
+                    <Typography padding='30px' paddingTop='40px' width='50%'>
+                        {aboutMe[0]}
+                    </Typography>
+                    <Box
+                        component='img'
+                        sx={{
+                            height: '260px',
+                            width: '250px',
+                            border: '2px solid black',
+                            margin: { xs: '3px', md: '3px' },
+                        }}
+                        src={AboutMePic}
+                    />
+                </Box>
             </Box>
         </Box>
     )

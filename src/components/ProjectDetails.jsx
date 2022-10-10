@@ -1,12 +1,12 @@
 import React from 'react'
 import { Box, Typography } from '@mui/material'
 
-import AnimeWorld from '../AnimeWorld.png'
-import Portfolio from '../Portfolio.png'
-import Crypto from '../Crypto.png'
-import YouTube from '../YouTube.png'
-import FindCountry from '../FindCountry.png'
-import Travel from '../TravelAdvisor.png'
+import AnimeWorld from '../media/AnimeWorld.png'
+import Portfolio from '../media/Portfolio.png'
+import Crypto from '../media/Crypto.png'
+import YouTube from '../media/YouTube.png'
+import FindCountry from '../media/FindCountry.png'
+import Travel from '../media/TravelAdvisor.png'
 import Project from './Project'
 
 const ProjectDetails = () => {
@@ -19,7 +19,7 @@ const ProjectDetails = () => {
             liveSite: 'https://anime-place.netlify.app/',
             sourceCode: 'https://github.com/Jevoni/anime-world',
             backgroundColor: 'lightblue',
-            version: '(v1.2.2)',
+            version: '',
             isComingSoon: false
         },
         {
@@ -30,7 +30,7 @@ const ProjectDetails = () => {
             liveSite: 'https://youtubes-lite.netlify.app',
             sourceCode: 'https://github.com/Jevoni/youtube-lite',
             backgroundColor: 'lightblue',
-            version: '(v2.0.0)',
+            version: '',
             isComingSoon: false
         },
         {
@@ -41,7 +41,7 @@ const ProjectDetails = () => {
             liveSite: 'https://travel-advisor-jalen.netlify.app',
             sourceCode: 'https://github.com/Jevoni/travel-guide',
             backgroundColor: 'lightblue',
-            version: '(v1.0.0)',
+            version: '',
             isComingSoon: false
         },
         {
@@ -52,7 +52,7 @@ const ProjectDetails = () => {
             liveSite: 'https://find-country-jalen.netlify.app',
             sourceCode: 'https://github.com/Jevoni/find-country',
             backgroundColor: 'lightblue',
-            version: '(v1.0.0)',
+            version: '',
             isComingSoon: false
         },
         {
@@ -63,7 +63,7 @@ const ProjectDetails = () => {
             liveSite: 'https://crypto-verse-jalen.netlify.app',
             sourceCode: 'https://github.com/Jevoni/cryptoverse',
             backgroundColor: 'lightblue',
-            version: '(v1.0.0)',
+            version: '',
             isComingSoon: false
         },
         {
@@ -74,11 +74,11 @@ const ProjectDetails = () => {
             liveSite: 'https://jalenj.com',
             sourceCode: 'https://github.com/Jevoni/jalen-portfolio-website',
             backgroundColor: 'lightblue',
-            version: '(v1.1.1)',
+            version: '',
             isComingSoon: false
         },
         {
-            title: 'Exercise App',
+            title: 'Fitness Tracker',
             info: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt tenetur mollitia facere doloremque tempore, rerum repudiandae nulla veritatis aspernatur officiis vitae commodi ducimus cupiditate consequuntur recusandae, sit earum! Et, nihil?",
             paragraphC: '',
             picture: 'filler',
@@ -88,17 +88,7 @@ const ProjectDetails = () => {
             version: '(Coming Soon...)',
             isComingSoon: true
         },
-        {
-            title: 'Free-to-Play Games DB',
-            info: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt tenetur mollitia facere doloremque tempore, rerum repudiandae nulla veritatis aspernatur officiis vitae commodi ducimus cupiditate consequuntur recusandae, sit earum! Et, nihil?",
-            paragraphC: '',
-            picture: 'filler',
-            liveSite: '',
-            sourceCode: '',
-            backgroundColor: 'lightblue',
-            version: '(Coming Soon...)',
-            isComingSoon: true
-        }]
+    ]
     return (
         <Box marginTop='30px' id='projects'>
             <Typography variant='h2'

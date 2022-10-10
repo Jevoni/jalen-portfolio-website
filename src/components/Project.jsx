@@ -1,6 +1,8 @@
 import { Typography, Card, Box, Button } from '@mui/material'
 import React, { useState, useEffect } from 'react'
 
+import './Project.css'
+
 const Project = ({ title, paragraph, picture, backgroundColor, version, paragraphC, isComingSoon, liveSite, sourceCode }) => {
     const [blur, setBlur] = useState('')
 
@@ -15,6 +17,7 @@ const Project = ({ title, paragraph, picture, backgroundColor, version, paragrap
 
     return (
         <Box
+            className='animate glow delay-1'
             m={1}
             sx={{
                 display: 'flex',

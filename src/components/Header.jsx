@@ -2,7 +2,7 @@ import React from 'react'
 import { Box, Typography, Button } from '@mui/material'
 import { Link, animateScroll } from "react-scroll";
 
-import Resume from '../JALENJOHNSON.pdf'
+import Resume from '../media/JALENJOHNSON.pdf'
 
 const Header = () => {
     return (
