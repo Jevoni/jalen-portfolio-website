@@ -33,9 +33,15 @@ const AboutMe = () => {
                 </Typography>
                 <Box sx={{
                     display: 'flex',
-                    justifyContent: 'space-evenly'
+                    flexDirection: { xs: 'column', sm: 'row' },
+                    justifyContent: 'center',
+                    alignItems: { xs: 'center', sm: 'flex-start' },
                 }}>
-                    <Typography padding='30px' paddingTop='40px' width='50%'>
+                    <Typography padding='30px' paddingTop='40px'
+                        sx={{
+                            width: { md: '50%', xs: '100%' }
+                        }}
+                    >
                         {aboutMe[0]}
                     </Typography>
                     <Box
