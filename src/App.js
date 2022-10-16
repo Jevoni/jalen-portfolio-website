@@ -10,11 +10,9 @@ import Footer from './components/Footer'
 
 const App = () => {
     return (
-        <Box style={{
-            overflowZ: 'hidden'
-        }}>
+        <Box>
             <CssBaseline />
-            <Header style={{ width: '100%' }} />
+            <Header />
             <AboutMe />
             <ProjectDetails />
             <Contact />
