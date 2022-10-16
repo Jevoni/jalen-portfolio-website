@@ -12,7 +12,7 @@
     animation-timing-function: ease;
 }
 
-@keyframes animate-fade {
+@keyframes animate-glow {
     0% {
         opacity: 0;
         filter: brightness(3) saturate(3);

@@ -3,7 +3,13 @@ import { Box, Typography } from '@mui/material'
 
 const Footer = () => {
     return (
-        <Box display='flex' flexDirection='column' backgroundColor='lightslategray' textAlign='center' padding='20px'>
+        <Box sx={{
+            display: 'flex',
+            flexDirection: 'column',
+            backgroundColor: 'lightslategray',
+            textAlign: 'center',
+            padding: '20px',
+        }}>
             <Typography>Copyright of Jalen Jevoni Johnson</Typography>
         </Box>
     )

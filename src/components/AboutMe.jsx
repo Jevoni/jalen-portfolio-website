@@ -7,28 +7,25 @@ const AboutMe = () => {
     const aboutMe = ['Programming has never felt like just a job or hobby. Its one of the first things I do in the morning and one of the last things I do at night. Programming allows me to express my creativity through code. ']
 
     return (
-        <Box display='flex'
-            justifyContent='center'
-            textAlign='center'
-            backgroundColor='white'
-            marginTop='30px'
-            marginBottom='40px'
-            id='about'
-            width='100%'
-            alignItems='center'
-        >
-            <Box display='flex'
-                flexDirection='column'
-                border='2px solid black'
-                padding='20px'
-                backgroundColor='#ccc'
-                sx={{
-                    width: { xs: '95%', md: '80%' }
-                }}
-            >
-                <Typography variant='h2'
-                    sx={{ fontSize: { xs: '30px', sm: '40px', md: '50px', lg: '60px' } }}
-                >
+        <Box id='about' sx={{
+            display: 'flex',
+            justifyContent: 'center',
+            textAlign: 'center',
+            backgroundColor: 'white',
+            marginTop: '30px',
+            marginBottom: '40px',
+            width: '100%',
+            alignItems: 'center',
+        }}>
+            <Box sx={{
+                width: { xs: '95%', md: '80%' },
+                display: 'flex',
+                flexDirection: 'column',
+                border: '2px solid black',
+                padding: '20px',
+                backgroundColor: '#ccc',
+            }}>
+                <Typography variant='h2' sx={{ fontSize: { xs: '30px', sm: '40px', md: '50px', lg: '60px' } }}>
                     About Me
                 </Typography>
                 <Box sx={{
@@ -37,11 +34,7 @@ const AboutMe = () => {
                     justifyContent: 'center',
                     alignItems: { xs: 'center', sm: 'flex-start' },
                 }}>
-                    <Typography padding='30px' paddingTop='40px'
-                        sx={{
-                            width: { md: '50%', xs: '100%' }
-                        }}
-                    >
+                    <Typography sx={{ width: { md: '50%', xs: '100%' }, padding: '30px', paddingTop: '40px' }}>
                         {aboutMe[0]}
                     </Typography>
                     <Box

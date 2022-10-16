@@ -16,31 +16,27 @@ const Contact = () => {
     };
 
     return (
-        <Box
-            id='contact'
-            sx={{
-                height: 'auto',
-                display: 'flex',
-                flexDirection: 'column',
-                backgroundColor: 'lightslategray',
-                width: '100%',
-                alignItems: 'center',
-                marginTop: '28px',
-                borderTop: '2px solid black'
-            }}
-        >
-            <Typography variant='h2' paddingTop='15px' sx={{ fontSize: { xs: '25px', sm: '35px', md: '3.5rem' }, textAlign: 'center' }}>Contant Me</Typography>
+        <Box id='contact' sx={{
+            height: 'auto',
+            display: 'flex',
+            flexDirection: 'column',
+            backgroundColor: 'lightslategray',
+            width: '100%',
+            alignItems: 'center',
+            marginTop: '28px',
+            borderTop: '2px solid black'
+        }}>
+            <Typography variant='h2' sx={{ fontSize: { xs: '25px', sm: '35px', md: '3.5rem' }, textAlign: 'center', paddingTop: '15px' }}>
+                Contant Me
+            </Typography>
             <form ref={form} onSubmit={sendEmail}>
-                <Box
-                    m={4}
-                    sx={{
-                        display: 'flex',
-                        flexDirection: 'column',
-                        alignItems: 'center',
-                        width: 'auto',
-                        height: 'auto'
-                    }}
-                >
+                <Box m={4} sx={{
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'center',
+                    width: 'auto',
+                    height: 'auto'
+                }}>
                     <TextField
                         variant='filled'
                         label='Full Name'

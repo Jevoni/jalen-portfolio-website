@@ -16,30 +16,22 @@ const Project = ({ title, paragraph, picture, backgroundColor, version, paragrap
 
 
     return (
-        <Box
-            className={`${styles.animate} ${styles['delay-1']}`}
-            m={1}
-            sx={{
+        <Box className={`${styles.animate} ${styles.glow} ${styles['delay-1']}`} m={1} sx={{
+            display: 'flex',
+            flexDirection: 'column',
+            width: { md: '47%' },
+            height: 'auto',
+            backgroundColor,
+            padding: '20px',
+            border: '2px solid black',
+        }}>
+            <Box sx={{
                 display: 'flex',
-                flexDirection: 'column',
-                width: { md: '47%' },
-                height: 'auto',
-                backgroundColor,
-                padding: '20px',
-                border: '2px solid black',
-            }}
-        >
-            <Box
-                sx={{
-                    display: 'flex',
-                    justifyContent: 'space-between',
-                    alignItems: 'center',
-                    flexDirection: { xs: 'column', sm: 'row' }
-                }}
-            >
-                <Typography variant='h2'
-                    sx={{ fontSize: { xs: '25px', sm: '35px', md: '40px' }, width: '60%' }}
-                >
+                justifyContent: 'space-between',
+                alignItems: 'center',
+                flexDirection: { xs: 'column', sm: 'row' }
+            }}>
+                <Typography variant='h2' sx={{ fontSize: { xs: '25px', sm: '35px', md: '40px' }, width: '60%' }}>
                     {title} <span style={{ fontSize: '25px', color: 'red' }}>{version}</span>
                 </Typography>
                 <Box sx={{ filter: blur }}>
@@ -51,56 +43,40 @@ const Project = ({ title, paragraph, picture, backgroundColor, version, paragrap
                     </Button>
                 </Box>
             </Box>
-            <Box
-                sx={{
+            <Box sx={{
+                display: 'flex',
+                justifyContent: 'center',
+                flexDirection: { xs: 'column', sm: 'row', md: 'column', xl: 'row' },
+                height: 'auto',
+                width: 'auto',
+                filter: blur,
+            }}>
+                <Box mr={.5} sx={{
+                    height: 'auto',
                     display: 'flex',
                     justifyContent: 'center',
-                    flexDirection: { xs: 'column', sm: 'row', md: 'column', xl: 'row' },
-                    height: 'auto',
-                    width: 'auto',
-                    filter: blur,
-                }}
-            >
-                <Box mr={.5}
-                    sx={{
-                        height: 'auto',
-                        display: 'flex',
-                        justifyContent: 'center',
-                        marginRight: {
-                            xs: '0.25rem', sm: '0rem'
-                        },
-                        paddingRight: '1px'
-                    }
-                    }
-                >
+                    marginRight: { xs: '0.25rem', sm: '0rem' },
+                    paddingRight: '1px'
+                }}>
                     <Typography variant='h5' fontSize='16px'>
                         {paragraph}
                         <br /> <br />{paragraphC}
                     </Typography>
                 </Box>
-                <Box
-                    sx={{
-                        height: 'auto',
-                        display: 'flex',
-                        justifyContent: 'center',
-                        alignItems: 'center',
-                        marginLeft: {
-                            xs: '0', sm: '0.25rem'
-                        },
-                        paddingLeft: '1px'
-                    }}
-                >
-                    <Box
-                        component='img'
-                        sx={{
-                            height: '200px',
-                            width: '300px',
-                            border: '2px solid black',
-                            margin: { xs: '3px', md: '3px' }
-                        }}
-                        src={picture}
-                    >
-                    </Box>
+                <Box sx={{
+                    height: 'auto',
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    marginLeft: { xs: '0', sm: '0.25rem' },
+                    paddingLeft: '1px'
+                }}>
+                    <Box component='img' src={picture} sx={{
+                        height: '200px',
+                        width: '300px',
+                        border: '2px solid black',
+                        margin: { xs: '3px', md: '3px' }
+                    }} />
                 </Box>
             </Box>
         </Box >
