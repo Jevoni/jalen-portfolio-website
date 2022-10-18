@@ -8,7 +8,7 @@ const ProjectDetails = () => {
 
     return (
         <Box id='projects' sx={{ marginTop: '30px' }}>
-            <Typography variant='h2' sx={{ fontSize: { xs: '30px', sm: '40px', md: '50px', lg: '60px' }, textAlign: 'center', paddingBottom: '17px' }}>
+            <Typography variant='h2' sx={{ fontSize: { xs: '30px', sm: '35px', md: '40px' }, textAlign: 'center', paddingBottom: '17px' }}>
                 Projects
             </Typography>
             <Box sx={{

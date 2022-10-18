@@ -9,7 +9,7 @@ import Footer from './components/Footer'
 
 const App = () => {
     return (
-        <Box>
+        <Box style={{ overflowX: 'hidden' }}>
             <CssBaseline />
             <Header />
             <AboutMe />

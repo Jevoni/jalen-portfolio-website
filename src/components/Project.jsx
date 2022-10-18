@@ -16,7 +16,7 @@ const Project = ({ title, paragraph, picture, backgroundColor, version, paragrap
 
 
     return (
-        <Box className={`${styles.animate} ${styles.glow} ${styles['delay-1']}`} m={1} sx={{
+        <Box m={1} sx={{
             display: 'flex',
             flexDirection: 'column',
             width: { md: '47%' },
@@ -29,12 +29,12 @@ const Project = ({ title, paragraph, picture, backgroundColor, version, paragrap
                 display: 'flex',
                 justifyContent: 'space-between',
                 alignItems: 'center',
-                flexDirection: { xs: 'column', sm: 'row' }
+                flexDirection: { xs: 'column', sm: 'row', md: 'column', lg: 'row' }
             }}>
-                <Typography variant='h2' sx={{ fontSize: { xs: '25px', sm: '35px', md: '40px' }, width: '60%' }}>
+                <Typography variant='h2' sx={{ fontSize: { xs: '25px', sm: '30px', md: '35px' } }}>
                     {title} <span style={{ fontSize: '25px', color: 'red' }}>{version}</span>
                 </Typography>
-                <Box sx={{ filter: blur }}>
+                <Box sx={{ filter: blur, marginTop: '10px', marginBottom: '10px' }}>
                     <Button href={sourceCode} target='_blank' sx={{ fontWeight: 'bold', fontSize: '16px', color: '#363838', border: '2px solid black', margin: '1px' }}>
                         Source Code
                     </Button>
@@ -45,17 +45,18 @@ const Project = ({ title, paragraph, picture, backgroundColor, version, paragrap
             </Box>
             <Box sx={{
                 display: 'flex',
-                justifyContent: 'center',
+                justifyContent: 'space-between',
                 flexDirection: { xs: 'column', sm: 'row', md: 'column', xl: 'row' },
                 height: 'auto',
                 width: 'auto',
                 filter: blur,
             }}>
-                <Box mr={.5} sx={{
+                <Box sx={{
                     height: 'auto',
                     display: 'flex',
                     justifyContent: 'center',
                     marginRight: { xs: '0.25rem', sm: '0rem' },
+                    marginBottom: { xs: '7px', sm: '0px', md: '7px', xl: '0px' },
                     paddingRight: '1px'
                 }}>
                     <Typography variant='h5' fontSize='16px'>
@@ -68,6 +69,7 @@ const Project = ({ title, paragraph, picture, backgroundColor, version, paragrap
                     display: 'flex',
                     justifyContent: 'center',
                     alignItems: 'center',
+                    marginTop: { xs: '7px', sm: '0px', md: '7px', xl: '0px' },
                     marginLeft: { xs: '0', sm: '0.25rem' },
                     paddingLeft: '1px'
                 }}>
@@ -75,7 +77,6 @@ const Project = ({ title, paragraph, picture, backgroundColor, version, paragrap
                         height: '200px',
                         width: '300px',
                         border: '2px solid black',
-                        margin: { xs: '3px', md: '3px' }
                     }} />
                 </Box>
             </Box>

@@ -1,5 +1,7 @@
 import React from 'react'
 import { Box, Typography } from '@mui/material'
+import { FaReact, } from 'react-icons/fa'
+import { SiMaterialui, SiAntdesign, SiRedux, SiNextdotjs, SiJavascript, SiHtml5, SiCss3, SiGit, SiGithub } from 'react-icons/si'
 
 import AboutMePic from '../media/AboutMe.JPG'
 
@@ -25,7 +27,7 @@ const AboutMe = () => {
                 padding: '20px',
                 backgroundColor: '#ccc',
             }}>
-                <Typography variant='h2' sx={{ fontSize: { xs: '30px', sm: '40px', md: '50px', lg: '60px' } }}>
+                <Typography variant='h2' sx={{ fontSize: { xs: '30px', sm: '35px', md: '40px' } }}>
                     About Me
                 </Typography>
                 <Box sx={{
@@ -34,19 +36,37 @@ const AboutMe = () => {
                     justifyContent: 'center',
                     alignItems: { xs: 'center', sm: 'flex-start' },
                 }}>
-                    <Typography sx={{ width: { md: '50%', xs: '100%' }, padding: '30px', paddingTop: '40px' }}>
-                        {aboutMe[0]}
-                    </Typography>
-                    <Box
-                        component='img'
-                        sx={{
-                            height: '260px',
-                            width: '250px',
-                            border: '2px solid black',
-                            margin: { xs: '3px', md: '3px' },
-                        }}
-                        src={AboutMePic}
-                    />
+                    <Box sx={{
+                        width: { md: '50%', xs: '100%' },
+                        display: 'flex',
+                        flexDirection: 'column'
+                    }}>
+                        <Typography sx={{ padding: '30px', paddingTop: '40px' }}>
+                            {aboutMe[0]}
+                        </Typography>
+                        <Box sx={{
+                            display: 'flex',
+                            justifyContent: 'space-evenly',
+                            paddingBottom: '30px'
+                        }}>
+                            <SiJavascript size={25} />
+                            <SiHtml5 size={25} />
+                            <SiCss3 size={25} />
+                            <FaReact size={25} />
+                            <SiRedux size={25} />
+                            <SiNextdotjs size={25} />
+                            <SiGit size={25} />
+                            <SiGithub size={25} />
+                            <SiMaterialui size={25} />
+                            <SiAntdesign size={25} />
+                        </Box>
+                    </Box>
+                    <Box component='img' src={AboutMePic} sx={{
+                        height: '260px',
+                        width: '250px',
+                        border: '2px solid black',
+                        margin: { xs: '3px', md: '3px' },
+                    }} />
                 </Box>
             </Box>
         </Box>
@@ -54,5 +74,3 @@ const AboutMe = () => {
 }
 
 export default AboutMe
-
-// 'My name is Jalen Johnson and I am Front End Developer who specializes in React Js. I have been learning and using React for '

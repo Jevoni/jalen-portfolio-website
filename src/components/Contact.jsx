@@ -26,7 +26,7 @@ const Contact = () => {
             marginTop: '28px',
             borderTop: '2px solid black'
         }}>
-            <Typography variant='h2' sx={{ fontSize: { xs: '25px', sm: '35px', md: '3.5rem' }, textAlign: 'center', paddingTop: '15px' }}>
+            <Typography variant='h2' sx={{ fontSize: { xs: '30px', sm: '35px', md: '40px' }, textAlign: 'center', paddingTop: '15px' }}>
                 Contant Me
             </Typography>
             <form ref={form} onSubmit={sendEmail}>
@@ -43,9 +43,7 @@ const Contact = () => {
                         name="user_name"
                         sx={{
                             background: 'white',
-                            width: {
-                                lg: '700px', md: '650px', sm: '550px', xs: '300px'
-                            },
+                            width: { lg: '700px', md: '650px', sm: '550px', xs: '300px' },
                         }} />
                     <TextField
                         variant='filled'
@@ -54,9 +52,7 @@ const Contact = () => {
                         name="user_email"
                         sx={{
                             background: 'white',
-                            width: {
-                                lg: '700px', md: '650px', sm: '550px', xs: '300px'
-                            },
+                            width: { lg: '700px', md: '650px', sm: '550px', xs: '300px' },
                         }} />
                     <TextField
                         variant='filled'
@@ -65,19 +61,15 @@ const Contact = () => {
                         multiline
                         sx={{
                             background: 'white',
-                            width: {
-                                lg: '700px', md: '650px', sm: '550px', xs: '300px'
-                            },
+                            width: { lg: '700px', md: '650px', sm: '550px', xs: '300px' },
                             marginBottom: '20px'
-                        }
-                        } />
+                        }} />
                     <Button
                         variant='contained'
-                        style={{
-                            backgroundColor: 'black'
-                        }}
+                        style={{ backgroundColor: 'black' }}
                         value='Send'
-                        type='submit'>
+                        type='submit'
+                    >
                         Submit
                     </Button>
                 </Box>

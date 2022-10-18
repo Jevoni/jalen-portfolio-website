@@ -12,7 +12,7 @@ export const projectsData = [
         paragraphC: 'Technologies: React, React Redux, React Redux Toolkit, Mui/Material, React Router DOM, React Player, Axios.',
         picture: AnimeWorld,
         liveSite: 'https://anime-place.netlify.app/',
-        sourceCode: 'https://github.com/Jevoni/anime-world',
+        sourceCode: 'https://github.com/Jevoni/anime-place',
         backgroundColor: 'lightblue',
         version: '',
         isComingSoon: false
