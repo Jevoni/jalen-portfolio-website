@@ -1,13 +1,27 @@
+/* Hero styles */
+.hero {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: lightslategray;
+    border-bottom: 2px solid black;
+}
+
+.hero__content {
+    position: relative;
+    padding: 3rem 0;
+}
+
 /* Typewriter Animation */
 .typewriter {
     overflow: hidden;
-    /* Ensures the content is not revealed until the animation */
     border-right: 3px solid transparent;
-    /* The typwriter cursor */
     white-space: nowrap;
-    /* Keeps the content on a single line */
     margin: 0 auto;
-    /* Gives that scrolling effect as the typing happens */
 }
 
 .animation-1 {
@@ -38,7 +52,6 @@
     }
 }
 
-/* The typewriter cursor effect */
 @keyframes blink-caret {
 
     from,
@@ -51,7 +64,7 @@
     }
 }
 
-/* Glow In Animation */
+/* Navbar Animation */
 .fade {
     animation-duration: 0.75s;
     animation-name: animate-fade;
@@ -60,7 +73,6 @@
     animation-delay: 2.6s;
 }
 
-/* Glow In */
 .animate.glow {
     animation-name: animate-glow;
     animation-timing-function: ease;
@@ -95,113 +107,7 @@
     }
 }
 
-/* Hamburger Menu */
-.burger {
-    height: 3em;
-    width: 3em;
-    position: relative;
-    font-size: 12px;
-    cursor: pointer;
-    -webkit-transition: .2s all;
-    -o-transition: .2s all;
-    transition: .2s all;
-    -webkit-tap-highlight-color: transparent;
-}
-
-.burger .burger-lines:after {
-    left: 0;
-    top: -1em;
-}
-
-.burger .burger-lines:before {
-    left: 1em;
-    top: 1em;
-}
-
-.burger:after {
-    content: '';
-    display: block;
-    position: absolute;
-    height: 150%;
-    width: 150%;
-    top: -25%;
-    left: -25%;
-}
-
-.burger .burger-lines {
-    top: 50%;
-    margin-top: -0.125em;
-}
-
-.burger .burger-lines,
-.burger .burger-lines:after,
-.burger .burger-lines:before {
-    pointer-events: none;
-    display: block;
-    content: '';
-    width: 100%;
-    border-radius: 0.25em;
-    background-color: black;
-    height: 0.25em;
-    position: absolute;
-    -webkit-transform: rotate(0);
-    -ms-transform: rotate(0);
-    transform: rotate(0);
-}
-
-.burger .burger-lines:after {
-    left: 0;
-    top: -1em;
-}
-
-.burger .burger-lines:before {
-    left: 1em;
-    top: 1em;
-}
-
-.burger.burger-squeeze .burger-lines,
-.burger.burger-squeeze .burger-lines:after,
-.burger.burger-squeeze .burger-lines:before {
-    -webkit-transition: .2s top .2s, .1s left, .2s transform, .4s background-color .2s;
-    -o-transition: .2s top .2s, .1s left, .2s transform, .4s background-color .2s;
-    transition: .2s top .2s, .1s left, .2s transform, .4s background-color .2s;
-}
-
-.burger.burger-squeeze .burger-lines:after,
-.burger.burger-squeeze .burger-lines:before {
-    width: 2em;
-}
-
-.burger.burger-squeeze.open .burger-lines,
-.burger.burger-squeeze.open .burger-lines:after,
-.burger.burger-squeeze.open .burger-lines:before {
-    -webkit-transition: .2s background-color, .2s top, .2s left, .2s transform .15s;
-    -o-transition: .2s background-color, .2s top, .2s left, .2s transform .15s;
-    transition: .2s background-color, .2s top, .2s left, .2s transform .15s;
-}
-
-.burger.burger-squeeze.open .burger-lines {
-    background-color: transparent;
-}
-
-.burger.burger-squeeze.open .burger-lines:before,
-.burger.burger-squeeze.open .burger-lines:after {
-    left: 0.5em;
-    top: 0px;
-}
-
-.burger.burger-squeeze.open .burger-lines:before {
-    -webkit-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-}
-
-.burger.burger-squeeze.open .burger-lines:after {
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-}
-
+/* Media Queries for Navbar @small resolutions */
 @media screen and (max-width:490px) {
     .nav-bar {
         width: 71%
@@ -213,4 +119,13 @@
         display: flex;
         flex-direction: column;
     }
+}
+
+/* Button Hover Color */
+.hover {
+    z-index: 998 !important;
+}
+
+.hover:hover {
+    color: orange;
 }

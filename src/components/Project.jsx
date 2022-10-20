@@ -1,8 +1,6 @@
 import { Typography, Box, Button } from '@mui/material'
 import React, { useState, useEffect } from 'react'
 
-import styles from './Project.module.css'
-
 const Project = ({ title, paragraph, picture, backgroundColor, version, paragraphC, isComingSoon, liveSite, sourceCode }) => {
     const [blur, setBlur] = useState('')
 
@@ -13,7 +11,6 @@ const Project = ({ title, paragraph, picture, backgroundColor, version, paragrap
             setBlur('')
         }
     }, [isComingSoon])
-
 
     return (
         <Box m={1} sx={{
