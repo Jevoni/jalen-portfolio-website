@@ -39,22 +39,20 @@ const Header = () => {
                     // display: { xs: 'none', sm: 'initial' }
                 }}>
                     <Link smooth={true} to='about'>
-                        <Button variant='filled' href='#about' sx={{ mt: { xs: '3.75px', sm: '0px' }, mb: { xs: '3.75px', sm: '0px' }, mr: { xs: '3.75px', sm: '15px' }, ml: { xs: '3.75px', sm: '15px' }, fontWeight: 'bold', fontSize: { sx: '15px', md: '20px' }, border: '2px solid black' }}>
+                        <Button variant='filled' sx={{ mt: { xs: '3.75px', sm: '0px' }, mb: { xs: '3.75px', sm: '0px' }, mr: { xs: '3.75px', sm: '15px' }, ml: { xs: '3.75px', sm: '15px' }, fontWeight: 'bold', fontSize: { xs: '14px', md: '20px' }, border: '2px solid black' }}>
                             About Me
                         </Button>
                     </Link>
                     <Link smooth={true} to='projects'>
-                        <Button variant='filled' sx={{ mt: { xs: '3.75px', sm: '0px' }, mb: { xs: '3.75px', sm: '0px' }, mr: { xs: '3.75px', sm: '15px' }, ml: { xs: '3.75px', sm: '15px' }, fontWeight: 'bold', fontSize: { sx: '15px', md: '20px' }, border: '2px solid black' }}>
+                        <Button variant='filled' sx={{ mt: { xs: '3.75px', sm: '0px' }, mb: { xs: '3.75px', sm: '0px' }, mr: { xs: '3.75px', sm: '15px' }, ml: { xs: '3.75px', sm: '15px' }, fontWeight: 'bold', fontSize: { xs: '14px', md: '20px' }, border: '2px solid black' }}>
                             Projects
                         </Button>
                     </Link>
-                    <a href={Resume} target='_blank' rel="noreferrer" style={{ textDecoration: 'none', color: 'black' }}>
-                        <Button variant='filled' sx={{ mt: { xs: '3.75px', sm: '0px' }, mb: { xs: '3.75px', sm: '0px' }, mr: { xs: '3.75px', sm: '15px' }, ml: { xs: '3.75px', sm: '15px' }, fontWeight: 'bold', fontSize: { sx: '15px', md: '20px' }, border: '2px solid black' }}>
-                            Resume
-                        </Button>
-                    </a>
+                    <Button variant='filled' href={Resume} target='_blank' sx={{ mt: { xs: '3.75px', md: '0px' }, mb: { xs: '3.75px', sm: '0px' }, mr: { xs: '3.75px', sm: '15px' }, ml: { xs: '3.75px', sm: '15px' }, fontWeight: 'bold', fontSize: { xs: '14px', md: '20px' }, border: '2px solid black' }}>
+                        Resume
+                    </Button>
                     <Link smooth={true} to='contact'>
-                        <Button variant='filled' sx={{ mt: { xs: '3.75px', sm: '0px' }, mb: { xs: '3.75px', sm: '0px' }, mr: { xs: '3.75px', sm: '15px' }, ml: { xs: '3.75px', sm: '15px' }, fontWeight: 'bold', fontSize: { sx: '15px', md: '20px' }, border: '2px solid black' }}>
+                        <Button variant='filled' sx={{ mt: { xs: '3.75px', sm: '0px' }, mb: { xs: '3.75px', sm: '0px' }, mr: { xs: '3.75px', sm: '15px' }, ml: { xs: '3.75px', sm: '15px' }, fontWeight: 'bold', fontSize: { xs: '14px', md: '20px' }, border: '2px solid black' }}>
                             Contact Me
                         </Button>
                     </Link>

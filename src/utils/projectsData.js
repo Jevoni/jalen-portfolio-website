@@ -8,7 +8,7 @@ import Travel from '../media/TravelAdvisor.png'
 export const projectsData = [
     {
         title: 'Anime Place',
-        info: 'Are you an anime fan? Anime Place is the perfect web solution to those who want to watch anime online without paying for a monthly subscription. The website showcases all the latest and greatest animes, along with relics from the past.',
+        info: 'Are you an anime fan? Anime Place is the perfect web solution to those who want to watch anime without a monthly subscription. The website showcases all the latest and greatest animes, along with relics from the past.',
         paragraphC: 'Technologies: React, React Redux, React Redux Toolkit, Mui/Material, React Router DOM, React Player, Axios.',
         picture: AnimeWorld,
         liveSite: 'https://anime-place.netlify.app/',

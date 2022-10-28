@@ -21,6 +21,7 @@ const Project = ({ title, paragraph, picture, backgroundColor, version, paragrap
             backgroundColor,
             padding: '20px',
             border: '2px solid black',
+            boxShadow: '0px 0px 6px 0px',
         }}>
             <Box sx={{
                 display: 'flex',
@@ -32,10 +33,10 @@ const Project = ({ title, paragraph, picture, backgroundColor, version, paragrap
                     {title} <span style={{ fontSize: '25px', color: 'red' }}>{version}</span>
                 </Typography>
                 <Box sx={{ filter: blur, marginTop: '10px', marginBottom: '10px' }}>
-                    <Button href={sourceCode} target='_blank' sx={{ fontWeight: 'bold', fontSize: '16px', color: '#363838', border: '2px solid black', margin: '1px' }}>
+                    <Button href={sourceCode} target='_blank' sx={{ fontWeight: 'bold', fontSize: { xs: '13.5px', sm: '15.5px' }, color: '#363838', border: '2px solid black', margin: '1px' }}>
                         Source Code
                     </Button>
-                    <Button href={liveSite} target='_blank' sx={{ fontWeight: 'bold', fontSize: '16px', color: '#363838', border: '2px solid black', margin: '1px' }}>
+                    <Button href={liveSite} target='_blank' sx={{ fontWeight: 'bold', fontSize: { xs: '13.5px', sm: '15.5px' }, color: '#363838', border: '2px solid black', margin: '1px' }}>
                         Live Site
                     </Button>
                 </Box>

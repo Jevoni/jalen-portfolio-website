@@ -75,7 +75,7 @@ const Contact = () => {
                 </Box>
 
             </form >
-            <hr width='88%' marginTop='20px'></hr>
+            <hr width='88%'></hr>
         </Box >
 
     )

@@ -26,6 +26,7 @@ const AboutMe = () => {
                 border: '2px solid black',
                 padding: '20px',
                 backgroundColor: '#ccc',
+                boxShadow: '0px 0px 9px 0px'
             }}>
                 <Typography variant='h2' sx={{ fontSize: { xs: '30px', sm: '35px', md: '40px' } }}>
                     About Me
