@@ -30,7 +30,7 @@ const Header = () => {
                         I'm <span style={{ textShadow: '1.5px 1.5px black', color: '#F55887', fontWeight: 'bold' }}> Jalen</span>,<br />
                     </Typography>
                     <Typography variant='h3' className={`${styles.typewriter} ${styles['animation-3']}`} sx={{ fontSize: { xs: '34px', sm: '40px', md: '44px', lg: '48px' } }}>
-                        <span style={{ textShadow: '1.5px 1.5px black', color: 'skyblue', fontWeight: 'bold' }}>Front End</span> Developer
+                        <span style={{ textShadow: '1.5px 1.5px black', color: 'skyblue', fontWeight: 'bold' }}>Full Stack</span> Developer
                     </Typography>
                 </Box>
                 <Box className={`${styles.fade} ${styles['nav-bar']}`} sx={{

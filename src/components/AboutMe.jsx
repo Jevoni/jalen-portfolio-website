@@ -1,7 +1,8 @@
 import React from 'react'
 import { Box, Typography } from '@mui/material'
-import { FaReact, } from 'react-icons/fa'
-import { SiMaterialui, SiAntdesign, SiRedux, SiNextdotjs, SiJavascript, SiHtml5, SiCss3, SiGit, SiGithub } from 'react-icons/si'
+import { FaReact, FaNodeJs } from 'react-icons/fa'
+import { SiMaterialui, SiAntdesign, SiExpress, SiNextdotjs, SiJavascript, SiHtml5, SiCss3, SiGit, SiGithub, SiMongodb } from 'react-icons/si'
+import { DiMysql } from 'react-icons/di'
 
 import AboutMePic from '../media/AboutMe.JPG'
 
@@ -54,8 +55,11 @@ const AboutMe = () => {
                             <SiHtml5 size={25} />
                             <SiCss3 size={25} />
                             <FaReact size={25} />
-                            <SiRedux size={25} />
+                            <FaNodeJs size={25} />
                             <SiNextdotjs size={25} />
+                            <SiExpress size={25} />
+                            <SiMongodb size={25} />
+                            <DiMysql size={25} />
                             <SiGit size={25} />
                             <SiGithub size={25} />
                             <SiMaterialui size={25} />

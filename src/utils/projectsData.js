@@ -4,8 +4,20 @@ import Crypto from '../media/Crypto.png'
 import YouTube from '../media/YouTube.png'
 import FindCountry from '../media/FindCountry.png'
 import Travel from '../media/TravelAdvisor.png'
+import Fitness from '../media/FitnessTracker.png'
 
 export const projectsData = [
+    {
+        title: 'Fitness Tracker',
+        info: "Fitness Tracker is a web application that allows users to tracker their weight training, and cardio sessions, along with any additional supplementation.",
+        paragraphC: '',
+        picture: Fitness,
+        liveSite: '',
+        sourceCode: 'https://github.com/Jevoni/fitness-tracker',
+        backgroundColor: 'lightblue',
+        version: '(Coming Soon...)',
+        isComingSoon: false
+    },
     {
         title: 'Anime Place',
         info: 'Are you an anime fan? Anime Place is the perfect web solution to those who want to watch anime without a monthly subscription. The website showcases all the latest and greatest animes, along with relics from the past.',
@@ -40,23 +52,23 @@ export const projectsData = [
         isComingSoon: false
     },
     {
-        title: 'Country Finder',
-        info: 'Who doesnt like to travel? Country Finder is an application that displays relevant data such as the language, currency, population, etc about any country.',
-        paragraphC: 'Technologies: React, React DOM, React Redux, React Router DOM, Redux Persist.',
-        picture: FindCountry,
-        liveSite: 'https://find-country-jalen.netlify.app',
-        sourceCode: 'https://github.com/Jevoni/find-country',
-        backgroundColor: 'lightblue',
-        version: '',
-        isComingSoon: false
-    },
-    {
         title: 'CryptoVerse',
         info: 'In our ever involving economy, everything is becoming globalized... including currency. CryptoVerse is web application that displays relevant data about all the major crypto currencies.',
         paragraphC: 'Technologies: Ant Design, Axios, Chart.js, HTML React Player, Milify, Moment, React, React DOM, React Redux, React Router DOM',
         picture: Crypto,
         liveSite: 'https://crypto-verse-jalen.netlify.app',
         sourceCode: 'https://github.com/Jevoni/cryptoverse',
+        backgroundColor: 'lightblue',
+        version: '',
+        isComingSoon: false
+    },
+    {
+        title: 'Country Finder',
+        info: 'Who doesnt like to travel? Country Finder is an application that displays relevant data such as the language, currency, population, etc about any country.',
+        paragraphC: 'Technologies: React, React DOM, React Redux, React Router DOM, Redux Persist.',
+        picture: FindCountry,
+        liveSite: 'https://find-country-jalen.netlify.app',
+        sourceCode: 'https://github.com/Jevoni/find-country',
         backgroundColor: 'lightblue',
         version: '',
         isComingSoon: false
@@ -73,8 +85,8 @@ export const projectsData = [
         isComingSoon: false
     },
     {
-        title: 'Fitness Tracker',
-        info: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt tenetur mollitia facere doloremque tempore, rerum repudiandae nulla veritatis aspernatur officiis vitae commodi ducimus cupiditate consequuntur recusandae, sit earum! Et, nihil?",
+        title: 'Masculine Tenants API',
+        info: "Fitness Tracker is a web application that allows users to tracker their weight training, and cardio sessions, along with any additional supplementation.",
         paragraphC: '',
         picture: 'filler',
         liveSite: '',
