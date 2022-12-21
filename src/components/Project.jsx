@@ -36,7 +36,7 @@ const Project = ({ title, paragraph, picture, backgroundColor, version, paragrap
                     <Button href={sourceCode} target='_blank' sx={{ fontWeight: 'bold', fontSize: { xs: '13.5px', sm: '15.5px' }, color: '#363838', border: '2px solid black', margin: '1px' }}>
                         Source Code
                     </Button>
-                    <Button href={liveSite} target='_blank' sx={{ fontWeight: 'bold', fontSize: { xs: '13.5px', sm: '15.5px' }, color: '#363838', border: '2px solid black', margin: '1px' }}>
+                    <Button href={liveSite} target='_blank' sx={{ fontWeight: 'bold', fontSize: { xs: '13.5px', sm: '15.5px' }, color: '#363838', border: '2px solid black', margin: '1px', display: liveSite ? '' : 'none' }}>
                         Live Site
                     </Button>
                 </Box>

@@ -5,6 +5,7 @@ import YouTube from '../media/YouTube.png'
 import FindCountry from '../media/FindCountry.png'
 import Travel from '../media/TravelAdvisor.png'
 import Fitness from '../media/FitnessTracker.png'
+import Masculine from '../media/Masculine.png'
 
 export const projectsData = [
     {
@@ -86,13 +87,13 @@ export const projectsData = [
     },
     {
         title: 'Masculine Tenants API',
-        info: "Fitness Tracker is a web application that allows users to tracker their weight training, and cardio sessions, along with any additional supplementation.",
-        paragraphC: '',
-        picture: 'filler',
-        liveSite: '',
-        sourceCode: '',
+        info: "A restful API that showcases the quotes of some of the most masculine men in history.",
+        paragraphC: 'Technologies: Express.js, Node.js, MongoDB',
+        picture: Masculine,
+        liveSite: false,
+        sourceCode: 'https://github.com/Jevoni/masculine-tenants-api',
         backgroundColor: 'lightblue',
-        version: '(Coming Soon...)',
-        isComingSoon: true
+        version: '',
+        isComingSoon: false
     },
 ]
