@@ -31,6 +31,17 @@ export const projectsData = [
         isComingSoon: false
     },
     {
+        title: 'Country Finder',
+        info: 'Who doesnt like to travel? Country Finder is an application that displays relevant data about any country such as the language, currency, population, etc.',
+        paragraphC: 'Technologies: React, React DOM, React Redux, React Router DOM, Redux Persist.',
+        picture: FindCountry,
+        liveSite: 'https://find-country-jalen.netlify.app',
+        sourceCode: 'https://github.com/Jevoni/find-country',
+        backgroundColor: 'lightblue',
+        version: '',
+        isComingSoon: false
+    },
+    {
         title: 'Youtube Lite',
         info: 'This is shallow copy of the YouTube website, which means that there is no backend integration. In non technical terms, its YouTube without the ability to create an account and things of that nature.',
         paragraphC: 'Technologies: React, React DOM, React Player, React Router DOM.',
@@ -59,17 +70,6 @@ export const projectsData = [
         picture: Crypto,
         liveSite: 'https://crypto-verse-jalen.netlify.app',
         sourceCode: 'https://github.com/Jevoni/cryptoverse',
-        backgroundColor: 'lightblue',
-        version: '',
-        isComingSoon: false
-    },
-    {
-        title: 'Country Finder',
-        info: 'Who doesnt like to travel? Country Finder is an application that displays relevant data such as the language, currency, population, etc about any country.',
-        paragraphC: 'Technologies: React, React DOM, React Redux, React Router DOM, Redux Persist.',
-        picture: FindCountry,
-        liveSite: 'https://find-country-jalen.netlify.app',
-        sourceCode: 'https://github.com/Jevoni/find-country',
         backgroundColor: 'lightblue',
         version: '',
         isComingSoon: false

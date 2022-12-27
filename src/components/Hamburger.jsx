@@ -29,11 +29,11 @@ const Hamburger = () => {
             }}>
                 <Box className={styles['hero__content']} sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '90%' }}>
                     <Box style={{ height: '45%', display: 'flex', flexDirection: 'column', justifyContent: 'space-evenly', textAlign: 'center', fontWeight: 'bold', fontSize: '25px' }}>
-                        <Link to='home' onClick={() => { handleHamburger() }} smooth={true}>Home</Link>
-                        <Link to='about' onClick={() => { handleHamburger() }} smooth={true}>About Me</Link>
-                        <Link to='projects' onClick={() => { handleHamburger() }} smooth={true}>Projects</Link>
-                        <a onClick={() => { handleHamburger() }} style={{ color: 'black', textDecoration: 'none', }} href={Resume} target='_blank' rel="noreferrer">Resume</a>
-                        <Link to='contact' onClick={() => { handleHamburger() }} smooth={true}>Contact Me</Link>
+                        <Link to='home' onClick={() => handleHamburger()} smooth={true}>Home</Link>
+                        <Link to='about' onClick={() => handleHamburger()} smooth={true}>About Me</Link>
+                        <Link to='projects' onClick={() => handleHamburger()} smooth={true}>Projects</Link>
+                        <a onClick={() => handleHamburger()} style={{ color: 'black', textDecoration: 'none', }} href={Resume} target='_blank' rel="noreferrer">Resume</a>
+                        <Link to='contact' onClick={() => handleHamburger()} smooth={true}>Contact Me</Link>
                     </Box>
                 </Box>
             </Box>
