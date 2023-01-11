@@ -64,8 +64,8 @@ export const projectsData = [
         isComingSoon: false
     },
     {
-        title: 'CryptoVerse',
-        info: 'In our ever involving economy, everything is becoming globalized... including currency. CryptoVerse is web application that displays relevant data about all the major crypto currencies.',
+        title: 'Cryptoverse',
+        info: 'In our ever involving economy, everything is becoming globalized... including currency. Cryptoverse is web application that displays relevant data about all the major crypto currencies.',
         paragraphC: 'Technologies: Ant Design, Axios, Chart.js, HTML React Player, Milify, Moment, React, React DOM, React Redux, React Router DOM',
         picture: Crypto,
         liveSite: 'https://crypto-verse-jalen.netlify.app',

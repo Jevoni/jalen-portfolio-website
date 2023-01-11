@@ -29,14 +29,17 @@ const Project = ({ title, paragraph, picture, backgroundColor, version, paragrap
                 alignItems: 'center',
                 flexDirection: { xs: 'column', sm: 'row', md: 'column', lg: 'row' }
             }}>
-                <Typography variant='h2' sx={{ fontSize: { xs: '25px', sm: '30px', md: '35px' } }}>
-                    {title} <span style={{ fontSize: '25px', color: 'red' }}>{version}</span>
-                </Typography>
-                <Box sx={{ filter: blur, marginTop: '10px', marginBottom: '10px' }}>
-                    <Button href={sourceCode} target='_blank' sx={{ fontWeight: 'bold', fontSize: { xs: '13.5px', sm: '15.5px' }, color: '#363838', border: '2px solid black', margin: '1px' }}>
+                <Box sx={{ display: 'flex', alignItems: 'center' }}>
+                    {/* <p>testtdyj</p> */}
+                    <Typography variant='h2' sx={{ marginLeft: '4px', fontSize: { xs: '25px', sm: '30px', md: '35px' } }}>
+                        {title} <span style={{ fontSize: '25px', color: 'red' }}>{version}</span>
+                    </Typography>
+                </Box>
+                <Box sx={{ filter: blur, marginBottom: '15px' }}>
+                    <Button href={sourceCode} target='_blank' sx={{ fontSize: { xs: '12.5px', sm: '14.5px' }, color: 'black', border: '2px solid black', margin: '1px' }}>
                         Source Code
                     </Button>
-                    <Button href={liveSite} target='_blank' sx={{ fontWeight: 'bold', fontSize: { xs: '13.5px', sm: '15.5px' }, color: '#363838', border: '2px solid black', margin: '1px', display: liveSite ? '' : 'none' }}>
+                    <Button href={liveSite} target='_blank' sx={{ fontSize: { xs: '12.5px', sm: '14.5px' }, color: 'black', border: '2px solid black', margin: '1px', display: liveSite ? '' : 'none' }}>
                         Live Site
                     </Button>
                 </Box>

@@ -54,16 +54,14 @@ const AboutMe = () => {
                             <SiJavascript size={25} />
                             <SiHtml5 size={25} />
                             <SiCss3 size={25} />
-                            <FaReact size={25} />
                             <FaNodeJs size={25} />
+                            <FaReact size={25} />
                             <SiNextdotjs size={25} />
                             <SiExpress size={25} />
                             <SiMongodb size={25} />
                             <DiMysql size={25} />
                             <SiGit size={25} />
                             <SiGithub size={25} />
-                            <SiMaterialui size={25} />
-                            <SiAntdesign size={25} />
                         </Box>
                     </Box>
                     <Box component='img' src={AboutMePic} sx={{

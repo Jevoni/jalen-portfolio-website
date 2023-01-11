@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.7dea94b8.css",
-    "main.js": "/static/js/main.72a5c175.js",
+    "main.js": "/static/js/main.97ebe0b2.js",
     "static/media/AnimeWorld.png": "/static/media/AnimeWorld.57f5499a3ab0d11be941.png",
     "static/media/YouTube.png": "/static/media/YouTube.669b6fc8f3240d17538c.png",
     "static/media/TravelAdvisor.png": "/static/media/TravelAdvisor.de882850542cfd7db143.png",
-    "static/media/FindCountry.png": "/static/media/FindCountry.88b3987f0065eab4e8a0.png",
+    "static/media/FindCountry.png": "/static/media/FindCountry.f7375a6ce91cfd0e0cba.png",
     "static/media/Crypto.png": "/static/media/Crypto.dc5cfb12f77193822b75.png",
     "static/media/FitnessTracker.png": "/static/media/FitnessTracker.b3184f81ea2491bc5d82.png",
     "static/media/AboutMe.JPG": "/static/media/AboutMe.836502fed63942b50474.JPG",
-    "static/media/Portfolio.png": "/static/media/Portfolio.999a2231273e736e1f50.png",
-    "static/media/JALENJOHNSON.pdf": "/static/media/JALENJOHNSON.9ed6d9147a4f9f17322e.pdf",
+    "static/media/Portfolio.png": "/static/media/Portfolio.4d0027bf0ab76d4f801e.png",
+    "static/media/JALENJOHNSON.pdf": "/static/media/JALENJOHNSON.1a209578cd62321dc6de.pdf",
     "index.html": "/index.html",
     "main.7dea94b8.css.map": "/static/css/main.7dea94b8.css.map",
-    "main.72a5c175.js.map": "/static/js/main.72a5c175.js.map"
+    "main.97ebe0b2.js.map": "/static/js/main.97ebe0b2.js.map"
   },
   "entrypoints": [
     "static/css/main.7dea94b8.css",
-    "static/js/main.72a5c175.js"
+    "static/js/main.97ebe0b2.js"
   ]
 }
